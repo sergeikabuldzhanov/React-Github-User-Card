@@ -105,6 +105,20 @@ body {
   color: white;
 }
 
+h1{
+  font-size: 4rem;
+  color: white;
+}
+
+span{
+  font-size: 1.6rem;
+  color: white;
+}
+
+form{
+  margin: 0px auto 10px;
+}
+
 .github-card {
   width: 100%;
   padding: 20px;

@@ -5,8 +5,8 @@ export default class FollowerCard extends Component {
     return (
       <section className="follower-card">
         <img src={this.props.user.avatar_url} alt={this.props.user.name} />
-        <div class="card-info">
-          <p class="username">{this.props.user.login}</p>
+        <div className="card-info">
+          <p className="username">{this.props.user.login}</p>
           <p>
             Profile:
             <a href={this.props.user.html_url}>{this.props.user.html_url}</a>
